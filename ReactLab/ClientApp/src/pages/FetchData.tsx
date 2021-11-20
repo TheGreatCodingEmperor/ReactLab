@@ -68,7 +68,7 @@ export class FetchData extends Component<DropdownProps, FetchDataState> {
       <div>
         <h1 id="tabelLabel" >Weather forecast</h1>
 
-        <Dropdown value={this.state.city} options={citySelectItems} onChange={(e) => this.setCity(e.value)} placeholder="Select a City" />
+        <Dropdown className="p-inputtext-sm" value={this.state.city} options={citySelectItems} onChange={(e) => this.setCity(e.value)} placeholder="Select a City" />
         <Button label="Save" onClick={this.handleClick}  />
         <p>This component demonstrates fetching data from the server.</p>
         {contents}

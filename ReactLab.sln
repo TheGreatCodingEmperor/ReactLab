@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactLab", "ReactLab\ReactLab.csproj", "{98348531-9408-40BA-9515-184A87211A6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{0F67A0F7-9841-4719-BECB-9B90B0E96473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{708D01BF-DB58-41EA-960C-FEB6EC499B85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{98348531-9408-40BA-9515-184A87211A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98348531-9408-40BA-9515-184A87211A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98348531-9408-40BA-9515-184A87211A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F67A0F7-9841-4719-BECB-9B90B0E96473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F67A0F7-9841-4719-BECB-9B90B0E96473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F67A0F7-9841-4719-BECB-9B90B0E96473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F67A0F7-9841-4719-BECB-9B90B0E96473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708D01BF-DB58-41EA-960C-FEB6EC499B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708D01BF-DB58-41EA-960C-FEB6EC499B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708D01BF-DB58-41EA-960C-FEB6EC499B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708D01BF-DB58-41EA-960C-FEB6EC499B85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
