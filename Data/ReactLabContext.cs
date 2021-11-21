@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Data.Models;
 
 namespace Data
 {
@@ -15,6 +16,6 @@ namespace Data
         {
         }
 
-        public virtual DbSet<Store> Store { get; set; }
+        public virtual DbSet<Store> Stores { get; set; }
     }
 }
